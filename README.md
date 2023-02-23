@@ -15,16 +15,16 @@ El funcionamiento de la tarjeta joven es el siguiente:
 - También existe el concepto de 'compra' que consiste cuando un usuario de la tarjeta adquiere una promoción. De la
   compra se desea almacenar el identificador único, fecha de compra, los datos de la promoción y los datos del usuario.
 
-## Ejercicio 1
+### Ejercicio 1
 - Crear un repositorio y añadirlo al aula virtual.
 
-## Ejercicio 2
+### Ejercicio 2
 - Crear el diagrama de clases.
 
-## Ejercicio 3
+### Ejercicio 3
 - Crear el diagrama de casos de uso necesario para resolver lo que se indica en el problema.
 
-## Ejercicio 4  
+### Ejercicio 4  
 Realizar la fase de desarrollo con las siguientes casuísticas:
 - Crear una empresa.
 - Listar empresas.
@@ -35,5 +35,5 @@ Realizar la fase de desarrollo con las siguientes casuísticas:
 - Crear una compra.
 - Listar las compras.
 
-## Ejercicio 5
+### Ejercicio 5
 - Los datos se almacenarán en un fichero. Usar las clases dadas en clase. 
