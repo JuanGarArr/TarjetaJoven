@@ -1,6 +1,8 @@
-package com.iesam.youthcard.Domain.UseCases;
+package com.iesam.youthcard.Domain.UseCases.Usuario;
 
 import com.iesam.youthcard.Domain.Models.Usuario;
+
+import java.util.List;
 
 public class GetUsuarioUseCase {
 
@@ -10,7 +12,8 @@ public class GetUsuarioUseCase {
         this.usuarioRepository = usuarioRepository;
     }
 
-    public Usuario execute(Integer usuarioId) {
-        return this.usuarioRepository.getById(usuarioId);
+    public List<Usuario> execute(){
+        return this.usuarioRepository.getAll();
     }
+
 }

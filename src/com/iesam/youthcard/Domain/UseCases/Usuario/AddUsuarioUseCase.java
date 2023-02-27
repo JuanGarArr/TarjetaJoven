@@ -1,15 +1,12 @@
-package com.iesam.youthcard.Domain.UseCases;
+package com.iesam.youthcard.Domain.UseCases.Usuario;
 
 import com.iesam.youthcard.Domain.Models.Usuario;
 
 public class AddUsuarioUseCase {
 
-
-    public class AddCatUseCase {
-
         private UsuarioRepository usuarioRepository;
 
-        public AddCatUseCase(UsuarioRepository usuarioRepository) {
+        public void AddUsuarioUseCase(UsuarioRepository usuarioRepository) {
             this.usuarioRepository = usuarioRepository;
         }
 
@@ -17,5 +14,5 @@ public class AddUsuarioUseCase {
             this.usuarioRepository.save(usuario);
         }
 
-    }
+
 }
