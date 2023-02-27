@@ -6,7 +6,10 @@ public class AddUsuarioUseCase {
 
         private UsuarioRepository usuarioRepository;
 
-        public void AddUsuarioUseCase(UsuarioRepository usuarioRepository) {
+    public AddUsuarioUseCase(UsuarioRepository usuarioRepository) {
+    }
+
+    public void AddUsuarioUseCase(UsuarioRepository usuarioRepository) {
             this.usuarioRepository = usuarioRepository;
         }
 
